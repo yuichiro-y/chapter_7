@@ -1,14 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-
-type Post = {
-  id: number;
-  title: string;
-  thumbnailUrl: string;
-  createdAt:string;
-  categories: string[];
-  content: string;
-}
+import { Post } from "./types/Post";
 
 export const PostDetail = () => {
 

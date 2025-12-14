@@ -1,14 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
-type Post = {
-  id: number;
-  title: string;
-  thumbnailUrl: string;
-  createdAt:string;
-  categories: string[];
-  content: string;
-}
+import { Post } from "./types/Post";
 
 export const TopPage = () => {
 
